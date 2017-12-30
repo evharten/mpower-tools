@@ -45,7 +45,7 @@ do
 		if [ $REFRESHCOUNTER -ne 0 ]
 		then
 			# not yet, keep counting
-			REFRESHCOUNTER=$((REFREHCOUNTER-1))
+			REFRESHCOUNTER=$((REFRESHCOUNTER-1))
 			continue
 		else
 			# time to update
