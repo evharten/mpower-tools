@@ -12,7 +12,7 @@ Use a SSH client and connect to your mPower device.
 Enter the following commands
 
 ```
-wget --no-check-certificate -q https://raw.githubusercontent.com/magcode/mpower-tools/master/nocontroller/install-nocontroller.sh -O /etc/persistent/install-nocontroller.sh;chmod 755 /etc/persistent/install-nocontroller.sh;/etc/persistent/install-nocontroller.sh
+wget --no-check-certificate -q https://raw.githubusercontent.com/evharten/mpower-tools/master/nocontroller/install-nocontroller.sh -O /etc/persistent/install-nocontroller.sh;chmod 755 /etc/persistent/install-nocontroller.sh;/etc/persistent/install-nocontroller.sh
 save
 reboot
 ```

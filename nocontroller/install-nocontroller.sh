@@ -14,7 +14,7 @@ chmod 755 $scriptdir/syswrapper.sh
 startscript=$scriptdir/start.sh
 poststart=/etc/persistent/rc.poststart
 
-wget --no-check-certificate -q https://raw.githubusercontent.com/magcode/mpower-tools/master/nocontroller/start.sh -O $startscript
+wget --no-check-certificate -q https://raw.githubusercontent.com/evharten/mpower-tools/master/nocontroller/start.sh -O $startscript
 chmod 755 $startscript
 
 if [ ! -f $poststart ]; then
