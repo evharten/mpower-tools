@@ -5,3 +5,4 @@ mount --bind /var/etc/persistent/nocontroller/syswrapper.sh /usr/etc/syswrapper.
 sed -e 's/mcad/mcad -d/' /etc/inittab > /tmp/inittab && mv /tmp/inittab /etc/inittab
 kill -HUP 1
 pkill -9 mcad
+echo 0 > /proc/led/freq
